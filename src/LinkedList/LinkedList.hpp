@@ -27,6 +27,8 @@ namespace ns
 
 		void insert(T value);
 
+		void replace(int index, T value);
+
 		void remove(int index);
 		void clear();
 	};
@@ -105,6 +107,15 @@ namespace ns
 			tail = tail->next;
 		}
 		size++;
+	}
+
+	template<typename T>
+	inline void LinkedList<T>::replace(int index, T value)
+	{
+		ListNode<T>* listNode = find(index);
+		if (!listNode) return;
+
+		listNode->value = value;
 	}
 
 	template<typename T>
