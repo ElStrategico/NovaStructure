@@ -13,5 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\LinkedList">
+      <UniqueIdentifier>{93b0b2e5-d221-4d4c-9226-76d65210534f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LinkedList\LinkedList.cpp">
+      <Filter>Исходные файлы\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LinkedList\ListNode.cpp">
+      <Filter>Исходные файлы\LinkedList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\LinkedList\LinkedList.hpp">
+      <Filter>Исходные файлы\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LinkedList\ListNode.hpp">
+      <Filter>Исходные файлы\LinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
