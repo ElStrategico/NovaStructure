@@ -27,6 +27,8 @@ namespace ns
 
 		void insert(T value);
 
+		void reverse();
+
 		void replace(int index, T value);
 
 		void remove(int index);
@@ -107,6 +109,25 @@ namespace ns
 			tail = tail->next;
 		}
 		size++;
+	}
+
+	template<typename T>
+	inline void LinkedList<T>::reverse()
+	{
+		ListNode<T>* current = tail;
+
+		tail = head;
+		head = current;
+
+		while (current != nullptr)
+		{
+			ListNode<T>* prev = current->prev;
+
+			current->prev = current->next;
+			current->next = prev;
+
+			current = prev;
+		}
 	}
 
 	template<typename T>
