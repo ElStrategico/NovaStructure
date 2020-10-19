@@ -100,12 +100,12 @@ namespace ns
 	{
 		if (isEmpty())
 		{
-			head = new ListNode<T>(value, nullptr, nullptr);
+			head = new ListNode<T>(value);
 			tail = head;
 		}
 		else
 		{
-			tail->next = new ListNode<T>(value, tail, nullptr);
+			tail->next = new ListNode<T>(value, tail);
 			tail = tail->next;
 		}
 		size++;
