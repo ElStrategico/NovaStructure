@@ -141,11 +141,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\BinaryTree\BinaryTree.cpp" />
+    <ClCompile Include="src\BinaryTree\TreeNode.cpp" />
     <ClCompile Include="src\LinkedList\LinkedList.cpp" />
     <ClCompile Include="src\LinkedList\ListNode.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\BinaryTree\BinaryTree.hpp" />
+    <ClInclude Include="src\BinaryTree\TreeNode.hpp" />
     <ClInclude Include="src\LinkedList\LinkedList.hpp" />
     <ClInclude Include="src\LinkedList\ListNode.hpp" />
   </ItemGroup>

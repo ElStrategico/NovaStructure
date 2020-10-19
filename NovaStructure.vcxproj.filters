@@ -16,6 +16,9 @@
     <Filter Include="Исходные файлы\LinkedList">
       <UniqueIdentifier>{93b0b2e5-d221-4d4c-9226-76d65210534f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\BinaryTree">
+      <UniqueIdentifier>{78267d97-a8b8-4c40-8578-ef510eee2f00}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -27,6 +30,12 @@
     <ClCompile Include="src\LinkedList\ListNode.cpp">
       <Filter>Исходные файлы\LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="src\BinaryTree\TreeNode.cpp">
+      <Filter>Исходные файлы\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BinaryTree\BinaryTree.cpp">
+      <Filter>Исходные файлы\BinaryTree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\LinkedList\LinkedList.hpp">
@@ -34,6 +43,12 @@
     </ClInclude>
     <ClInclude Include="src\LinkedList\ListNode.hpp">
       <Filter>Исходные файлы\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BinaryTree\TreeNode.hpp">
+      <Filter>Исходные файлы\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BinaryTree\BinaryTree.hpp">
+      <Filter>Исходные файлы\BinaryTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
