@@ -50,5 +50,8 @@
     <ClInclude Include="src\BinaryTree\BinaryTree.hpp">
       <Filter>Исходные файлы\BinaryTree</Filter>
     </ClInclude>
+    <ClInclude Include="src\LinkedList\LinkedListHelper.hpp">
+      <Filter>Исходные файлы\LinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
